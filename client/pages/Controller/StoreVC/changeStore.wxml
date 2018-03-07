@@ -1,0 +1,36 @@
+<!-- <import src="../StoreVC/changeStoreCell.wxml" /> -->
+
+
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="flex-wrp" style="flex-direction:column;margin-top: 20rpx;background:#F8F8F8;">
+        <block wx:for="{{listData}}" wx:for-index="index" wx:key="changestorecell">
+          <!-- <template is="{{'changestorecell'}}" data="{{item:item}}"/>
+           -->
+
+          <view class='weui-cell' style='' bindtap='pushBackAndResetStoreID' data-index="{{index}}">
+            <view class='flex-row flex-row-more'>
+              <view class='change_cell_image' style='background:#ffffff;'>
+                <image class='change_cell_image' src='{{item.img}}'></image>
+              </view>
+              <view class='flex-column' style="display: flex;flex-direction: column;width:67vw;margin-top:20rpx">
+                <text class='cell_title'>{{item.name}}</text>
+                <text class='cell_title'>{{item.address}}</text>
+                <text class='cell_title'>{{item.distance}}</text>
+              </view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class="page-section" hidden='{{defaultHidden}}' style='background:#ffffff;margin-top: 20vh;'>
+      <view class='title_View'>
+        <image class='image_View' src='../../../image/quesheng1.png' style=''></image>
+      </view>
+      <!-- <view class='text-box'>
+        <text class=''>暂无门店，敬请期待</text>
+      </view> -->
+    </view>
+  </view>
+</view>

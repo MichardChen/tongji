@@ -1,0 +1,57 @@
+/* pages/Controller/StoreVC/changeStore.wxss */
+@import "../../common/lib/weui.wxss";
+
+.change_cell_image{
+  width: 25vw;
+  height: 25vw;
+  border-top-left-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+}
+
+.page-section{
+  margin-bottom: 2rpx;
+  background: #F8F8F8;
+  margin-top: .5rpx;
+}
+
+.cell_title{
+  margin-left:20rpx;
+  margin-right: 20rpx;
+  max-width:65vw;
+}
+.flex-row-more{
+  display: flex;
+  flex-direction: row;
+  background:#ffffff;
+  width:92vw;
+  border-radius: 20rpx;
+  box-shadow: 1px 5px 5px #909090;
+}
+text{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 32rpx;
+  overflow: hidden;
+}
+.weui-cell:before{
+  border-top: 0rpx;
+}
+
+
+
+.title_View{
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+.image_View{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40vh;
+  width: 90vw;
+}

@@ -1,0 +1,36 @@
+<template name="storevccell">
+  <view class='page-section'>
+    <view class='weui-cell'>
+
+      <view class='flex-column' style="display: flex;flex-direction: column">
+        <view class='flex-row' style="display: flex;flex-direction: row;">
+
+          <view style='height:100rpx;width:100rpx'>
+            <image class='cell_image' src='{{item.imageurl}}'></image>
+          </view>
+          <view class='flex-column' style="display: flex;flex-direction: column;width:80vw">
+            <label class='cell_title'>{{item.title}}</label>
+            <view class='flex-row' style="display: flex;flex-direction: row">
+              <template is='starview' data='{{staritem:item.count}}'></template>
+              <text class=''>12月31日</text>
+            </view>
+          </view>
+
+        </view>
+        <text class='cell_content'>{{item.content}}</text>
+      </view>
+    </view>
+  </view>
+</template>
+
+
+
+
+<template name="starview">
+  <view class='flex-row cell_star' style="display: flex;flex-direction: row;">
+    <label>评分</label>
+    <block wx:for="{{[1,2,3,4,5]}}" wx:key="stars">
+      <image class='cell_star_starimage' src='{{item<=staritem?"../../../image/green_tri.png":""}}'></image>
+    </block>
+  </view>
+</template>

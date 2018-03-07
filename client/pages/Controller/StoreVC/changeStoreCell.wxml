@@ -1,0 +1,14 @@
+<template name="changestorecell">
+  <view class='weui-cell' style='' bindtap='pushBackAndResetStoreID' data-index="{{index}}">
+    <view class='flex-row flex-row-more'>
+      <view class='change_cell_image' style='background:#ffffff;'>
+        <image class='change_cell_image' src='{{item.img}}'></image>
+      </view>
+      <view class='flex-column' style="display: flex;flex-direction: column;width:67vw;margin-top:20rpx">
+        <text class='cell_title'>{{item.name}}</text>
+        <text class='cell_title'>{{item.address}}</text>
+        <text class='cell_title'>{{item.distance}}</text>
+      </view>
+    </view>
+  </view>
+</template>

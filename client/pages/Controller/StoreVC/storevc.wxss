@@ -1,0 +1,186 @@
+@import "../../common/lib/weui.wxss";
+
+.page-section-spacing{
+  padding:0 0rpx;
+  width: 100vw;
+  box-sizing: border-box; 
+}
+
+.page-section{
+  margin-bottom: 2rpx;
+  background: #ffffff;
+  margin-top: .5rpx;
+}
+
+.title_View{
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+.content_View{
+  margin-top: 62rpx;
+  margin-right: 0rpx;
+  margin-left: -8rpx;
+}
+.image_View{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 180rpx;
+  width: 180rpx;
+  border-radius: 90rpx;
+  background: black;
+}
+.text-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 36rpx;
+  color: #000000;
+  line-height: 2em;
+}
+.address_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 28rpx;
+  color: #909090;
+  line-height: 2em;
+}
+.pushStore_box{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 28rpx;
+  color: #909090;
+  line-height: 2em;
+}
+
+.address_image{
+  height: 28rpx;
+  width: 24rpx;
+}
+.btn_style{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background:#e9a740;
+  color: #ffffff;
+  height: 60rpx;
+  width: 40vw;
+  border-radius: 10rpx;
+  font-size: 24rpx;
+  margin-left: 30vw;
+  
+}
+.push_to_location{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background:#e9a740;
+  color: #ffffff;
+  height: 60rpx;
+  width: 30vw;
+  border-radius: 10rpx;
+  font-size: 22rpx;
+  margin:auto;
+}
+.btn_text{
+  width: 40vw;
+}
+.imageList_View{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.imageList_sty{
+  display:flex;
+  align-items:center;
+}
+.hover_class{
+  background: #f0f0f0;
+}
+
+
+
+
+
+.custom_title_propety{
+  float:left;
+  width:70vw;
+}
+.custom_content_propety{
+  margin-left:20px;
+  float:left;
+  width:70vw;
+}
+
+ .icon_image {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+} 
+.phone_image{
+  width: 100rpx;
+  height: 100rpx;
+  vertical-align: middle;
+}
+
+
+.flex-wrp{
+  margin-top: 60rpx;
+  display:flex;
+}
+.flex-item{
+  width: 200rpx;
+  height: 300rpx;
+  font-size: 26rpx;
+}
+.flex-item-V{
+  margin: 0 auto;
+  width: 300rpx;
+  height: 200rpx;
+}
+
+
+.store_label{
+  font-size: 4vw;
+  display: flex;
+  align-items: center;
+  color: #909090;
+  font-family: "PingFang SC";
+}
+
+
+
+.cell_title{
+  margin-left:20rpx;
+  margin-right: 20rpx;
+  max-width:70vw;
+}
+.cell_content{
+  margin-top: 10rpx;
+  margin-left:  10rpx;
+  margin-right: 10rpx;
+}
+.cell_image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.cell_star{
+  margin-left:20rpx;
+  margin-right: 20rpx;
+  width: 55vw;
+}
+.cell_star_starimage{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 4rpx;
+}

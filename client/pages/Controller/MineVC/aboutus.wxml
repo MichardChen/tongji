@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="page-body" style='background:#ffffff'>
+    <view class='page-section' style="">
+      <view class='top_iamge' style='flex-direction:column;display: flex;align-items: center;margin-bottom:20px'>
+        <image class='logo_image' src='../../../image/icon64_appwx_logo.png' style='display: flex;align-items: center;'></image>
+        <label class='font_14 color_title' style='display: flex;align-items: center;margin-top:20rpx;'>掌上茶宝</label>
+      </view>
+    </view>
+
+    <block wx:for="{{listData}}" wx:key="list">
+      <view class='page-section' style="border:1rpx solid #909090;margin-left:1rpx;margin-right:1rpx;width:99vw">
+        <view class='weui-cell'>
+          <text class='font_14 color_title'>{{item.title}}</text>
+        </view>
+      </view>
+    </block>
+
+    <!-- <view class='flex-wrp' style='flex-direction:row;display: flex;'>
+      <view style='align-items: center;width:50vw;'>
+      <button class='mini-btn' type='default' size='mini' style='align-items: center;'>安卓客户端</button>
+      </view>
+      <view style='align-items: center;width:50vw;'>
+      <button class='mini-btn' type='default' size='mini' style='align-items: center;'>苹果客户端</button>
+      </view>
+    </view> -->
+  </view>
+</view>

@@ -1,0 +1,11 @@
+@import "../../common/lib/weui.wxss";
+
+.logo_image{
+  width: 100rpx;
+  height: 100rpx;
+  align-items: center;
+  margin-top: 80rpx;
+}
+.page-section{
+  margin-bottom: 1rpx;
+}
